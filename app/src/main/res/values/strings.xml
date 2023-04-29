@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">10120209Latihan2</string>
+    <string name="regis"><b>Register</b></string>
+    <string name="resend"><b>Resend</b></string>
+    <string name="nama"><b>Abyan Altoriandi Yazid</b></string>
+    <string name="tl"><b>75</b></string>
+    <string name="ser"><b>100</b></string>
+    <string name="tigati"><b>330</b></string>
+    <string name="donor"><b>Search Donor</b></string>
+    <string name="needed"><b>Blood Needed</b></string>
+    <string name="message"><b>Message</b></string>
+    <string name="history"><b>Donor History</b></string>
+</resources>

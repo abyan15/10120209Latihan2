@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_blue"
+    tools:context=".SendVerify">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36dp"
+        android:textColor="@color/white"
+        android:text="Verify your Account"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:text="We have send verification code to your email"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter verification code here..."
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="60dp"
+        android:paddingStart="45dp"
+        android:paddingEnd="45dp"
+        android:layout_gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_verify2"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        app:cornerRadius="3dp"
+        app:strokeColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/bg_blue"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingEnd="140dp"
+        android:paddingStart="140dp"
+        android:hint="SEND"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/white"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="doesn't get the code?"
+            android:layout_marginStart="100dp"
+            android:textColor="@color/white"/>
+        <Button
+            style="@style/Widget.Material3.Button.TextButton"
+            android:id="@+id/btn_resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="-15dp"
+            android:text="@string/resend"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_toRightOf="@id/code"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
